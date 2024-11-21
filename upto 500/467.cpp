@@ -4,7 +4,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main() 
+{
 	// your code goes here
 	int p1,p2,p3,p4,c=0;
 	cin>>p1>>p2>>p3>>p4;
