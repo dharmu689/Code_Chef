@@ -4,7 +4,8 @@
 #include <bits/stdc++.h>
 using namespace std;
  
-int main () {
+int main () 
+{
 
   string num1 = "25";
   string num2 = "6";
