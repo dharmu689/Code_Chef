@@ -5,12 +5,14 @@
 using namespace std;
 
 // Function to double the value of an integer using a pointer
-void doubleValue(int* p) {
+void doubleValue(int* p) 
+{
     // Complete this function
     *p *= 2;
 }
 
-int main() {
+int main() 
+{
     // Define an integer variable and take input
     int x;
     
