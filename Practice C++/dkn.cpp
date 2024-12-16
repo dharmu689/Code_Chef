@@ -15,3 +15,8 @@ int main()
     else 
         cout << "both are equal";
 }
+
+
+
+
+
