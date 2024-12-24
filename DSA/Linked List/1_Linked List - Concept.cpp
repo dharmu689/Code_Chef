@@ -19,3 +19,6 @@ int main() {
     Node* head = new Node(1);
     cout << "The value at head is " << head -> value << '\n';
 }
+
+
+
