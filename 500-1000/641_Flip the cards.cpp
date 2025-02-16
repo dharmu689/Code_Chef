@@ -45,3 +45,5 @@ int main() {
     }
 
 }
+
+// cout<<min(x,(n-x))<<endl;
