@@ -1,11 +1,12 @@
-//Question - https://www.codechef.com/problems/ASSIGNSCORE
-//Solution - https://www.codechef.com/viewsolution/1110580738
+// Question - https://www.codechef.com/problems/ASSIGNSCORE
+// Solution - https://www.codechef.com/viewsolution/1110580738
 
 #include <bits/stdc++.h>
 
 using namespace std;
 
-int main() {
+int main()
+{
     // your code goes here
     int t;
     cin >> t;
@@ -19,7 +20,6 @@ int main() {
         {
             cin >> arr[i];
             sum += arr[i];
-
         }
         int total = (n + 1) * 100;
         int m = total / 2;
@@ -27,15 +27,10 @@ int main() {
         if (score <= 100)
         {
             cout << max(score, 0) << endl;
-
         }
         else
         {
             cout << "-1" << endl;
-
         }
     }
-
 }
-
-
