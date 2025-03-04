@@ -1,10 +1,11 @@
-//Question - https://www.codechef.com/practice/course/logical-problems/DIFF800/problems/CHEFAPPS
+// Question - https://www.codechef.com/practice/course/logical-problems/DIFF800/problems/CHEFAPPS
 
 #include <bits/stdc++.h>
 
 using namespace std;
 
-int main() {
+int main()
+{
     // your code goes here
     int t;
     cin >> t;
@@ -26,7 +27,4 @@ int main() {
             cout << "2" << endl;
         }
     }
-
 }
-
-
