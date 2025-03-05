@@ -24,4 +24,5 @@ int main()
             cout << "Bob" << endl;
         }
     }
+    return 0;
 }
