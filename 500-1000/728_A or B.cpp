@@ -28,4 +28,5 @@ int main()
             cout << t2 << endl;
         }
     }
+    return 0;
 }
