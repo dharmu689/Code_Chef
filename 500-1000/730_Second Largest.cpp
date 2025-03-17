@@ -15,6 +15,7 @@ int main()
         int x = a + b + c - max({a, b, c}) - min({a, b, c});
         cout << x << endl;
     }
+    return 0;
 }
 
 /*
