@@ -1,18 +1,20 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
+#include <bits/stdc++.h>
 using namespace std;
 
 // Function to find the maximum streak value of an array
-int maxStreak(vector<int>& A) {
+int maxStreak(vector<int> &A)
+{
     int n = A.size();
     int maxStreak = 1, currentStreak = 1;
 
-    for (int i = 1; i < n; i++) {
-        if (A[i] >= A[i-1]) {
+    for (int i = 1; i < n; i++)
+    {
+        if (A[i] >= A[i - 1])
+        {
             currentStreak++;
-        } else {
+        }
+        else
+        {
             currentStreak = 1;
         }
         maxStreak = max(maxStreak, currentStreak);
@@ -21,16 +23,19 @@ int maxStreak(vector<int>& A) {
     return maxStreak;
 }
 
-int main() {
+int main()
+{
     int T;
     cin >> T;
 
-    while (T--) {
+    while (T--)
+    {
         int N, X;
         cin >> N >> X;
         vector<int> A(N);
 
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i < N; i++)
+        {
             cin >> A[i];
         }
 
@@ -39,7 +44,8 @@ int main() {
 
         // Try modifying each element and calculate the maximum streak value
         int maxPossibleStreak = initialMaxStreak;
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i < N; i++)
+        {
             int originalValue = A[i];
             A[i] *= X;
             maxPossibleStreak = max(maxPossibleStreak, maxStreak(A));
