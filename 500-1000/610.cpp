@@ -1,12 +1,11 @@
-//Question - https://www.codechef.com/practice/course/logical-problems/DIFF800/problems/CHEFSCORE
-//Solution - https://www.codechef.com/viewsolution/1109829806
-
+// Question - https://www.codechef.com/practice/course/logical-problems/DIFF800/problems/CHEFSCORE
+// Solution - https://www.codechef.com/viewsolution/1109829806
 
 #include <bits/stdc++.h>
 
 using namespace std;
 
-int main() 
+int main()
 {
     // your code goes here
     int t;
@@ -25,5 +24,5 @@ int main()
             cout << "No" << endl;
         }
     }
-
+    return 0;
 }
