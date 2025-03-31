@@ -1,11 +1,11 @@
-//Question - https://www.codechef.com/practice/course/logical-problems/DIFF800/problems/HELIUM3
-//Solution - https://www.codechef.com/viewsolution/1103485727
+// Question - https://www.codechef.com/practice/course/logical-problems/DIFF800/problems/HELIUM3
+// Solution - https://www.codechef.com/viewsolution/1103485727
 
 #include <bits/stdc++.h>
 
 using namespace std;
 
-int main() 
+int main()
 {
     // your code goes here
     int t;
@@ -23,5 +23,5 @@ int main()
             cout << "no" << endl;
         }
     }
-
+    return 0;
 }
