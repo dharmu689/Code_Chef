@@ -22,4 +22,5 @@ int main()
             cout << (y - 1) / x << endl;
         }
     }
+    return 0;
 }
